@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+#games {
+    margin: 20px;
+    padding: 10px;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#donate-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
